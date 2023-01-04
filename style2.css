@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: color #f0f0f0; 
+  font-family: "Signika";
+}
+
+li,a,button{
+  font-family: "Signika";
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: 30px 10%;
+  background-color: #f0f0f0;
+}
+
+.logo{
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  margin-left: 50px;
+}
+
+.nav__links{
+  list-style: none;
+  padding-top: 20px;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: black;
+}
+
+button{
+  border: none;
+  color: white;
+  background-color: #999999;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: #999999;
+}
+.second{
+  text-align: center;
+  font-size: large;
+}
+.highlight2{
+  background-color: #cef6ff;
+  font-style: bold;
+}
+.impact{
+  text-align: center;
+  font-size: large;
+}
+.rectangle{
+  height: 17px;
+  width: 25px;
+  padding-top:13px;
+  border-style: solid;
+}
+.past{
+  color: #3073da;
+  font-style: bold;
+}
+.nav__links2{
+  list-style: none;
+  padding-top: 20px;
+  background-color: #DDDDDD;
+  padding-left: 30%;
+  padding-bottom: 1.8%;
+}
+
+.nav__links2 li{
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+.nav__links2 li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links2 li a:hover{
+  color: black;
+}
+.nav__links3{
+  list-style: none;
+  padding-top: 20px;
+  color: #3073da;
+  padding-left: 16%;
+  padding-bottom: 1.8%;
+  background-color: #cef6ff;
+}
+.nav__links3 li{
+  display: inline-block;
+  padding: 5px 20px;
+}
+.blue{
+  color: #3073da;
+}
+.cross{
+  height: 30px;
+  width: 25px;
+  background-color: #cef6ff;
+}
+.box1 {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  text-align:center;
+  background-color:#DDDDDD;
+  margin-left: 13%;
+  flex-shrink: 0;
+}
+.sparrow,.trees{
+  display: flex;
+}
+.content1{
+  padding: 25px;
+}
+.content2{
+  padding-top: 0%;
+  color: #165400;
+}
+.box1s,.box2s{
+  text-align: center;
+  padding: 90px 0px;
+  color:black;
+  margin-top: 20px;
+}
+.box2 {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  text-align:center;
+  background-color:#DDDDDD;
+  margin-left: 18%;
+  flex-shrink: 0;
+}
+.block1{
+  display: flex;
+}
+
+
+
+
+

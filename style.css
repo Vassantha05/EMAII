@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: color #f0f0f0; 
+  font-family: "Signika";
+}
+
+li,a,button{
+  font-family: "Signika";
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: 30px 10%;
+  background-color: #f0f0f0;
+}
+
+.logo{
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  margin-left: 50px;
+}
+
+.nav__links{
+  list-style: none;
+  padding-top: 20px;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: black;
+}
+
+button{
+   border: none;
+  color: white;
+  background-color: #999999;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+  width: 40px;
+}
+.aa{
+  width: 100px;
+}
+
+
+button:hover{
+  background-color: #999999;
+}
+#part2{
+  text-align: justify;
+  text-align-last: center;
+  text-align-last: left;
+  padding:0px 90px;
+  margin-left: 200px;
+}
+.highlight{
+  background-color: #CEF6FF;
+}
+.part3{
+
+  background-color: #CEF6FF;
+  height: 90px;
+  padding-top: 12px;
+  padding-bottom: 7%;
+
+}
+input{
+  width: 25%;
+  height: 10%;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 22%;
+}
+#part4{
+  text-align: justify;
+  text-align-last: center;
+  text-align-last: left;
+  padding:0px 90px;
+  margin-left: 200px;
+  font-size: smaller;
+}
+.highlight2{
+  background-color: #CEF6FF;
+  margin-left: 23%;
+ 
+}
+.insta{
+  height: 35px;
+  width: 30px;
+  margin-left:23% ;
+}
+.facebook{
+  height: 35px;
+  width: 30px;
+  margin-left: 1%;
+}
+.linkedin{
+  height: 35px;
+  width: 30px;
+  margin-left: 1%;
+}
+.color{
+  color: #3073DA;
+}
+#part5{
+  margin-left: 22%;
+}
+.box1 {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  text-align:center;
+  background-color:#DDDDDD;
+  margin-left: 18%;
+  flex-shrink: 0;
+}
+.box1s,.box2s{
+  text-align: center;
+  padding: 90px 0px;
+  color:black;
+  margin-top: 20px;
+}
+.sparrow,.trees,.participant,.boxes4,.words{
+  display: flex;
+}
+.content1{
+  padding: 25px;
+}
+.content2{
+  padding-top: 0%;
+  color: #165400;
+}
+.box2 {
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  text-align:center;
+  background-color:#DDDDDD;
+  margin-left: 18%;
+  flex-shrink: 0;
+}
+.join{
+  padding-left: 9%;
+}
+.box3{
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  width: 230px;
+  height: 70px;
+  text-align:center;
+  background-color:#DDDDDD;
+  margin-left: 52%;
+  flex-shrink: 0;
+  vertical-align: center;
+  line-height:55px;
+}
+.p1{
+  margin-left: 9.2%;
+}
+.p2{
+  margin-left: 2.4%;
+}
+.p3{
+  margin-left: 1.7%;
+}
+.support{
+  padding-left: 8.8%;
+}
+.p4{
+  margin-left:8.7%;
+}
+.p5{
+  margin-left: 3.8%;
+}
+.last2{
+  width: 120%;
+  padding-top: 12px;
+  padding-bottom: 7%;
+}
+button{
+  width: 12%;
+}
+.last1{
+  border: none;
+  padding: 20px 55px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+.final{
+  display: flex;
+}
+
+ 
